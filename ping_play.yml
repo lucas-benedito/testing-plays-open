@@ -5,3 +5,5 @@
   - name: ping host
     ping:
   - shell: "hostname"
+  - debug:
+      msg: "Success" 
